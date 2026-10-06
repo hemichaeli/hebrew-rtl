@@ -1,0 +1,17 @@
+{
+  "name": "hebrew-rtl",
+  "version": "0.1.0",
+  "description": "Shows Hebrew in the prompt (live mirror above the box) and in sent messages right-to-left and right-aligned, keeping code and English left-to-right",
+  "author": {
+    "name": "hemichaeli"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "terminalBidi": {
+      "type": "boolean",
+      "title": "Terminal reorders bidi itself",
+      "description": "Turn on if your terminal already applies bidi (GNOME Terminal, Konsole, mlterm), so the mod only aligns and does not reorder",
+      "default": false
+    }
+  }
+}

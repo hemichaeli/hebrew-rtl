@@ -1,0 +1,6 @@
+{
+  "name": "hebrew-rtl",
+  "owner": { "name": "hemichaeli" },
+  "metadata": { "description": "Hebrew right-to-left display for Claude Code" },
+  "plugins": [{ "name": "hebrew-rtl", "source": "./" }]
+}
